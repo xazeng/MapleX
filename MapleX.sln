@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapleX", "MapleX\MapleX.vcxproj", "{F369C847-6EF6-49FE-BEC3-A59773DF480E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4343EDD6-A72B-4082-AB80-BC1867F37D41} = {4343EDD6-A72B-4082-AB80-BC1867F37D41}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hklib", "hklib\hklib.vcxproj", "{4343EDD6-A72B-4082-AB80-BC1867F37D41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapleStory", "MapleStory\MapleStory.vcxproj", "{278783B8-D23D-49E1-A06C-B7857B85537C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4343EDD6-A72B-4082-AB80-BC1867F37D41} = {4343EDD6-A72B-4082-AB80-BC1867F37D41}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F369C847-6EF6-49FE-BEC3-A59773DF480E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F369C847-6EF6-49FE-BEC3-A59773DF480E}.Debug|Win32.Build.0 = Debug|Win32
+		{F369C847-6EF6-49FE-BEC3-A59773DF480E}.Release|Win32.ActiveCfg = Release|Win32
+		{F369C847-6EF6-49FE-BEC3-A59773DF480E}.Release|Win32.Build.0 = Release|Win32
+		{4343EDD6-A72B-4082-AB80-BC1867F37D41}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4343EDD6-A72B-4082-AB80-BC1867F37D41}.Debug|Win32.Build.0 = Debug|Win32
+		{4343EDD6-A72B-4082-AB80-BC1867F37D41}.Release|Win32.ActiveCfg = Release|Win32
+		{4343EDD6-A72B-4082-AB80-BC1867F37D41}.Release|Win32.Build.0 = Release|Win32
+		{278783B8-D23D-49E1-A06C-B7857B85537C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{278783B8-D23D-49E1-A06C-B7857B85537C}.Debug|Win32.Build.0 = Debug|Win32
+		{278783B8-D23D-49E1-A06C-B7857B85537C}.Release|Win32.ActiveCfg = Release|Win32
+		{278783B8-D23D-49E1-A06C-B7857B85537C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
